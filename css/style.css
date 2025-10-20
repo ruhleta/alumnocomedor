@@ -1,0 +1,10 @@
+.dropdown-menu {
+            transition: opacity 0.3s ease, transform 0.3s ease;
+        }
+        
+        /* CAMBIO: Clase para deshabilitar visualmente las tarjetas */
+        .meal-card.disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            background-color: #f9fafb; /* bg-gray-50 */
+        }
